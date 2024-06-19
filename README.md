@@ -75,6 +75,6 @@ You need an API key from the [Google Maps JavaScript API](https://developers.goo
 
 4. Fill in latitude and longitude coordinates in the form and click "Go!" to navigate to a specific location on the map.
 
-5. Mark locations as favorites by checking the "Add to favorites" checkbox before clicking "Go!". Favorites will appear in the right sidebar.
+5. Mark locations as favorites by pressing "Add to Favorites!" Location must have a name to be a part of your favorites. Favorites will appear in the right sidebar.
 
 6. Click on a favorite location in the sidebar to navigate to that location on the map.
