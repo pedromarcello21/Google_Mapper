@@ -36,9 +36,16 @@ body {
 
 }
 
-#look-up-value{
-  width:18vw;
+#form-buttons{
+  display:flex;
+  flex-direction: row;
+}
+
+#look-up-value, #add-to-favorites, #buttons{
+  width:auto;
   border-radius: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -63,17 +70,15 @@ form *{
 }
 
 
-#buttons{
+/* #buttons{
   display:flex;
   flex-direction: row;
-  /* width: 80vw; */
   padding: 5px;
-  /* align-items: center; */
-  /* align-content: center; */
-  /* height: 80px; */
-  justify-content: space-around;
-  width:300px;
-}
+
+  justify-content: center;
+  width:18vw;
+} */
+
 #buttons *{
   border-radius: 10px;
   height:30px;
@@ -88,12 +93,6 @@ li::marker{
   content: "❤️ "
 }
 
-li:hover{
+li:hover, p:hover{
   cursor: pointer;
-  color:yellow
-
-}
-
-p:hover{
-  cursor:pointer
 }
