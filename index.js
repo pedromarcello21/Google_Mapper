@@ -76,7 +76,7 @@ form.addEventListener("submit", e=>{
     e.preventDefault();
     if(!isNaN(x) && x <= 90 && x>=-90 && y <= 180 && y>=-180 &&!isNaN(y)){
       const newPosition = {lat:x, lng:y}
-      const zoom = 11
+      const zoom = 12
       map.zoom = zoom
       map.setCenter(newPosition)
     } 
@@ -106,6 +106,7 @@ form.addEventListener("submit", e=>{
       // .then(newFavoriteInDB)
       }
     else{
+      e.preventDefault()
       window.alert("Give this location a name!")
     }
     map.setCenter({lat:newFavorite.latitude, lng: newFavorite.longitude})
@@ -206,7 +207,7 @@ document.querySelector("#favorites").addEventListener("click", e =>{
     lat: e.target.latitude,
     lng: e.target.longitude
   }
-  const zoom = 6;
+  const zoom = 12;
   map.zoom = zoom;
   map.setCenter(position);
 }
@@ -217,7 +218,8 @@ async function displayLastLocation(){
   const convertedResponse = await response.json()
   const lastLocation = convertedResponse.pop()
   try{
-    map.setCenter({lat:lastLocation.latitude, lng:lastLocation.longitude})
+    map.zoom = 12;
+    map.setCenter({lat:lastLocation.latitude, lng:lastLocation.longitude});
   } catch{
     console.log("*bandaid* looking to call last favorites to simulate refresh for favorites and no refresh for map")
   }

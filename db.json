@@ -1,4 +1,58 @@
 {
   "favorites": [
+    {
+      "id": "55ef",
+      "location": "Guatamala Coast",
+      "latitude": 13.53047,
+      "longitude": -93.08946
+    },
+    {
+      "id": "3e55",
+      "location": "Ponce",
+      "latitude": 18,
+      "longitude": -66.6
+    },
+    {
+      "id": "922f",
+      "location": "BKK",
+      "latitude": 13.75,
+      "longitude": 100.5
+    },
+    {
+      "id": "d818",
+      "location": "Chad",
+      "latitude": 10.50127,
+      "longitude": 14.10788
+    },
+    {
+      "id": "2613",
+      "location": "caribbean sea",
+      "latitude": 12.83632,
+      "longitude": -78.2958
+    },
+    {
+      "id": "9a04",
+      "location": "mykonos",
+      "latitude": 37.45,
+      "longitude": 25.35
+    },
+    {
+      "id": "afde",
+      "location": "Al Jubail",
+      "latitude": 26.23791,
+      "longitude": 48.48256
+    },
+    {
+      "id": "38b6",
+      "location": "uraguay",
+      "latitude": -36.76521,
+      "longitude": -58.50484
+    },
+    {
+      "id": "8f99",
+      "location": "michigan",
+      "latitude": 45.94158,
+      "longitude": -83.39921
+    }
   ]
 }
