@@ -67,7 +67,10 @@ You need an API key from the [Google Maps JavaScript API](https://developers.goo
 
 ### Running Google Mapper
 
-1. Open `index.html` in your browser to launch Google Mapper.
+1. Open `index.html` in your browser to launch Google Mapper. If you're running this from VS Code download the Live Server Extension below.  Right click on index.html and Open with Live Server
+
+https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+
 
 2. Double-click the "Google Mapper" heading for instructions on using the application.
 
